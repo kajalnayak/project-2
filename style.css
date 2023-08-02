@@ -1,0 +1,328 @@
+body{
+background-image: url("back 5.jpg");
+background-size: cover;
+}
+.navbar{
+    height: 60px;
+    background-color:reds;
+    
+}
+.lobo{
+    color:springgreen;
+    font-size: 25px;
+}
+a{
+margin: 110px;
+color:white;
+font-size: 20px;
+}
+input{
+    color: black;
+}
+button{
+    color: black;
+    background-color: yellow;
+    font-size: 15px;
+}
+.front{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-style:oblique;
+    font-size: 50px;
+    color:chartreuse;
+}
+.about{
+    color: red;
+    text-transform: uppercase;
+    margin-top: 170px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.para1{
+    color: white;
+    width: 50%;
+    margin-top:40px ;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    position:absolute;
+    right: 20px;
+    margin-top: 10px;
+    background-image: url("photo\ 1.jpeg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.box1:hover{
+    background-image: url("photo\ 2.jpeg");
+    background-size: cover;
+    transform: rotate(360deg);
+}
+.name{
+    position: absolute;
+    right: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.about2{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 150px;
+    font-size: 30px;
+}
+.para2{
+    width: 50%;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid red;
+    position: absolute;
+    right: 20px;
+    margin-top:30px ;
+    background-image: url("photo\ 11.jpeg");
+    background-size:cover ;
+}
+.box3{
+    height: 200px;
+    width:200px ;
+    border-radius: 50%;
+    border:2px solid red;
+    position:absolute ;
+    right: 20px;
+    margin-top: 40px;
+    background-image: url("photo\ 4.jpeg");
+    background-size: cover;
+}
+.para3{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.about3{
+    color:red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top:200px;
+    font-size: 30px;
+}
+
+.about4{
+    color:deeppink;
+    text-align: center;
+    margin-top:80px ;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 140px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.one{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-image: url("photo\ 12.jpeg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.one:hover{
+    background-image: url("photo\ 4.jpeg");
+    background-size: cover;
+    transform: rotate(360deg);
+}
+.two{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-image: url("photo\ 7.jpeg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.two:hover{
+    background-image: url("photo\ 8.jpeg");
+    background-size: cover;
+    transform: rotate(360deg);
+}
+.three{
+    height: 300px;
+    width: 300px;
+    border:2px solid red;
+    background-image: url("photo\ 9.jpeg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.three:hover{
+    background-image: url("photo\ 10.jpeg");
+    background-size: cover;
+    transform: rotate(360deg);
+}
+.four{
+    height:300px;
+    width: 300px;
+    border: 2px solid red;
+    background-image: url("photo\ 2.jpeg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.four:hover{
+    background-image: url("photo\ 11.jpeg");
+    background-size: cover;
+    transform: rotate(360deg);
+}
+.about5{
+    color:greenyellow;
+    text-align: center;
+    text-decoration: underline;       
+    margin-top: 110px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.reel{
+    display: flex;
+    justify-content:space-around ;
+    margin-top:115px ;
+}
+.e{
+    border: 2px solid red;
+}
+.r{
+    border: 2px solid red;
+}
+
+.t{
+    border:2px solid red;
+}
+.year{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    font-size: 50px;  
+}
+.choice{
+    color:cyan;
+    text-align: center;
+    text-decoration: underline;
+    margin-top:120px ;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.pasanda{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 122px;
+}
+.i{
+    border: 2px solid red;
+}
+.l{
+    border: 2px solid red;
+}
+.u{
+    border: 2px solid red;
+}
+.style{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 125px;
+    font-size: 40px;
+    
+    
+}
+.foot{
+    background-color:white;
+    margin-top: 150px;
+
+ }
+ .container{
+    max-width: 1100px;
+    background-color:white;
+    margin: auto;
+    color: white;
+ }
+ .row{
+    display: flex;
+    flex-wrap:initial;
+ }
+ ul{
+    list-style: none;
+    
+ }
+.footer-cool{
+    width:50%;
+    padding: 20px 50px;
+    color: red;
+    font-size: 30px;
+    
+}
+.footer-col h4 ::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom:-10px ;
+    background-color:white;
+    height: 2px;
+    box-sizing:border-box;
+    width: 50px;
+
+
+} 
+.a{
+    color: black;
+}
+.b{
+    color:black;
+}
+.c{
+    color:black;
+}
+.d{
+color: black;
+}
+.e{
+color: black;
+}
+.f{
+color: black;
+}
+.g{
+color: black;
+}
+.h{
+    color: black;
+}
+.i{
+    color: black;
+}

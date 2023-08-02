@@ -1,0 +1,277 @@
+#navbar{
+    height: 60px;
+    background-color:brown;
+    color:white;
+    margin-top: center;
+    padding-bottom: 20px;
+
+    
+}
+button{
+    background-color: yellow;
+    color:black;
+    font-size: 20px;
+}
+#logo{
+    color: burlywood;
+    font-size: 25px;
+}
+a{
+    margin: 100px;
+    color: green;
+    font-size: 25px;
+    
+}
+body{
+    padding: 20px 50px;
+}
+#division{
+    display: flex;
+    padding:20px 30px;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image:url("nation image.webp");
+     background-size: cover;
+     position: absolute;
+     right: 200px;
+
+      
+}
+.paragraph{
+
+    width:50%; 
+    color: white;
+}
+h1{
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 180px;
+}
+.box2{
+    height:300px;
+    width:300px;
+    border:3px solid black;
+    position: absolute;
+    right:50px;
+    background-color: cadetblue;
+    background-image: url("lion.jpg.jpg"); 
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+.three{
+    height: 300px;
+    width: 300px;
+    border:3px solid black ;
+    position: absolute;
+    right:50px ;
+    margin-top: 200px;
+    background-color: chocolate ;
+    background-image: url("pewacock.photo.jpg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    
+    
+}
+.four{
+    height:300px;
+    width: 300px;
+    border:3px solid black ;
+    position: absolute;
+    right: 40px;
+    margin-top:240px;
+    background-color: brown;
+    background-image:url("lotous.photo.jpg") ;
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    
+}
+.five{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    position: absolute;
+    right: 50px;
+    margin-top: 100px;
+    background-color: darkmagenta;
+    background-image: url("triranga.jpg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.first{
+    width:50%;
+    margin-top: 100px;
+    color: white;
+    
+}
+.bengal{
+    text-align:right  ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:lightcoral;
+    margin-top: 100px;
+    font-size: 50px;
+
+}
+.tiger{
+    text-align: left;
+    color:cadetblue;
+    text-decoration: solid;
+    text-transform: uppercase;
+    position: absolute;
+    top:500px ;
+    font-size:30px ;
+    
+}
+ .second{
+    width: 50%;
+    margin-top:280px ;
+    text-align: normal;
+    color:white ;
+ }
+ .bird{
+   color: tomato;
+   text-align: left;
+   text-decoration: solid;
+   text-transform: uppercase;
+   position: absolute;
+   top: 1100px;
+   font-size: 30px;
+
+ }
+ .pea{
+    text-align: right ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:crimson;
+    margin-top: 100px;
+    font-size:60px ;
+
+ }
+ .third{
+    width: 50%;
+    margin-top:300px ;
+    text-align: normal;
+    color: white;
+ }
+ .flow{
+    text-align: left;
+    text-decoration: solid;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1700px;
+    color: darkcyan;
+    font-size:30px ;
+ }
+ .lo{
+    text-align: right;
+    text-transform: uppercase;
+    color: darkgreen;
+    margin-top: 70px;
+    font-size:50px ;
+ }
+ .fiveth{
+    width: 50%;
+    margin-top: 150px ;
+    color: white;
+ }
+ .fl{
+    color: darkcyan;
+    text-align: left;
+    text-decoration: solid;
+    text-transform: uppercase;
+    position: absolute;
+    top:2200px;
+    font-size:30px ;
+ }
+ .flag{
+    text-align: right;
+    text-transform: uppercase;
+    color: darkmagenta;
+    margin-top: 70px;
+    font-size:50px ;
+
+ }
+ input{
+    background-color: white;
+    color:black;
+    font-size: 20px;
+ }
+ body{
+    background-image: url("back.photo.jpg");
+    background-size: cover;
+ }
+ .three:hover{
+    background-image: url("new peacock.photo.jpg");
+    transform: rotate(180deg);
+ }
+ .four:hover{
+    background-image: url("new lotous.photo.jpg");
+    transform: rotate(180deg);
+    
+ }
+ .five:hover{
+    background-image: url("new triranga.photo.jpg");
+    transform: rotate(180deg);
+ }
+ .box2:hover{
+    background-image: url("new 1.lion.jpg");
+    transform: rotate(180deg);
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .foot{
+    background-color:cadetblue;
+    padding: 60px 60px;
+ }
+ .container{
+    max-width: 1100px;
+    background-color:darkred;
+    margin: auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap:initial;
+ }
+ ul{
+    list-style: none;
+ }
+.footer-cool{
+    width:50%;
+    padding: 20px 50px;
+    
+}
+.footer-col h4 ::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom:-10px ;
+    background-color:gray;
+    height: 2px;
+    box-sizing:border-box;
+    width: 50px;
+
+
+} 
